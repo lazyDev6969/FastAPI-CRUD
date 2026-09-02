@@ -52,7 +52,7 @@ def update_product(product_id: int, updated_product: Product):
 
             return {
                 "isSuccess": True,
-                "message": "Product updated successfully",
+                "message": "Product updated successfully !!",
                 "product": updated_product,
             }
 
